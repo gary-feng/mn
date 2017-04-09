@@ -1,13 +1,14 @@
 package com.mn.web;
 
-import com.mn.entity.User;
-import org.springframework.beans.factory.annotation.Value;
+import com.mn.entity.Actor;
+import com.mn.service.ActorService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -16,23 +17,26 @@ import java.util.Map;
 @Controller
 public class MyRestController {
 
-    @Value("${application.hello:Hello Angel}")
-    private String hello;
+    @RequestMapping
+    public String index(Map<String, Object> model) {
+        model.put("actors", actorService.getActors());
+        return "index";
+    }
 
-    @RequestMapping(value = "/users/{user}/customers", method = RequestMethod.GET)
+    /**
+     * Return all actors
+     * @return
+     */
+    @RequestMapping(value = "/actors", method = RequestMethod.GET)
     @ResponseBody
-    public User getUser(@PathVariable String user) {
-        return new User(user, 30);
+    public List<Actor> getUser() {
+        return actorService.getActors();
     }
 
-    @RequestMapping(value = "/{user}", method = RequestMethod.DELETE)
-    public User deleteUser(@PathVariable Long user) {
-        return null;
-    }
+    private ActorService actorService;
 
-    @RequestMapping("/hello1")
-    public String hello(Map<String, Object> model) {
-        model.put("test", hello);
-        return "hello";
+    @Autowired
+    public void setActorService(ActorService actorService) {
+        this.actorService = actorService;
     }
 }
