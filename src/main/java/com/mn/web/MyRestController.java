@@ -17,10 +17,10 @@ import java.util.Map;
 @Controller
 public class MyRestController {
 
-    @RequestMapping
+    @RequestMapping("/index")
     public String index(Map<String, Object> model) {
         model.put("actors", actorService.getActors());
-        return "index";
+        return "main";
     }
 
     /**

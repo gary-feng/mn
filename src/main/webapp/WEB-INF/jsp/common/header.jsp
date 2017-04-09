@@ -6,5 +6,6 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
