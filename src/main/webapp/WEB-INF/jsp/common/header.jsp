@@ -9,3 +9,13 @@
     <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
+    <div class="header">
+        <div class="nav">
+            <h1 class="logo">
+                <a href="#"></a>
+            </h1>
+            <ul class="menu"></ul>
+            <span class="search"></span>
+        </div>
+    </div>
+    <div class="main">
