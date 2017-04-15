@@ -1,3 +1,6 @@
+/**
+ * Use this class support deploy to tomcat
+ */
 package com.mn.servlet;
 
 import com.mn.MeinvApplication;

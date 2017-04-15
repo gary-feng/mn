@@ -66,6 +66,13 @@
 			<!--<scope>provided</scope>-->
 		</dependency>
 
+		<!-- tiles -->
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+			<version>3.0.5</version>
+		</dependency>
+
 		<!-- Spring boot develop tools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

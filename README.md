@@ -6,7 +6,7 @@
 # Package project
 > mvn package
 
-# Packaging war for tomcat
+# Deploy war package to tomcat
 > 1. Change package type
 ```$xslt
 <packaging>war</packaging>
