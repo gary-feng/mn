@@ -13,6 +13,6 @@ public interface ActorDao extends CrudRepository<Actor, Integer> {
 
     List<Actor> findActorsByName(String name);
 
-    @Query("from Actor t where id = 2")
+    @Query("from Actor t")
     List<Actor> findAllActors();
 }

@@ -3,7 +3,7 @@
         <h1 class="logo">
             <a href="http://localhost:8080"></a>
         </h1>
-        <ul class="menu">
+        <ul class="nav">
             <li class="current">
                 <a href="#1">首页</a>
             </li>

@@ -15,10 +15,12 @@
     <!-- Pages -->
     <definition name="site.home" extends="layout.basic">
         <put-attribute name="body" value="/WEB-INF/jsp/pages/home.jsp" />
+        <put-attribute name="pageName" value="home"/>
     </definition>
 
     <definition name="site.actors" extends="layout.basic">
         <put-attribute name="body" value="/WEB-INF/jsp/pages/actors.jsp" />
+        <put-attribute name="actors" value="home"/>
     </definition>
 
 </tiles-definitions>
