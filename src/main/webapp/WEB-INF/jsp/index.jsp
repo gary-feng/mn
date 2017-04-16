@@ -5,6 +5,7 @@
 <html>
 <head>
     <title><tiles:getAsString name="title" /></title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
