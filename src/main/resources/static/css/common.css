@@ -187,7 +187,10 @@ a:hover {
     height: 115px;
     margin: 10px 0 0 10px;
 }
-
+.main .side-bar .widget-fix.fixed {
+    position: fixed;
+    top: 70px;
+}
 .main .side-bar .widget-fix .ad-fix-middle-right {
     width: 250px;
     height: 250px;
@@ -236,7 +239,27 @@ a:hover {
     margin: 14px auto 2px auto;
 }
 .to-top {
-
+    position: fixed;
+    right: 30px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    bottom: -100px;
+    transition: bottom 0.5s;
+}
+.to-top > div {
+    display: block;
+    padding: 8px 10px;
+}
+.to-top.show {
+    bottom: 30px;
+}
+.to-top .fa-qrcode {
+    background-color: #dadbdd;
+}
+.to-top .fa-angle-up {
+    margin-top: 2px;
+    background-color: #FF88AF;
 }
 
 /* home */

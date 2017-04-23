@@ -15,5 +15,10 @@
     </div>
 </div>
 <div class="to-top">
+    <div class="fa fa-qrcode">
 
+    </div>
+    <div class="fa fa-angle-up">
+
+    </div>
 </div>
