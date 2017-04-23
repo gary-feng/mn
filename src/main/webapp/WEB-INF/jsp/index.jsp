@@ -36,7 +36,64 @@
             <tiles:insertAttribute name="body" />
         </div>
         <div class="side-bar">
-
+            <div class="widget-top fa fa-mobile">
+                <span>Mzitu.com</span>
+                手机访问更精彩！
+            </div>
+            <div class="widget-middle">
+                <h3>排行榜</h3>
+                <a href="#">
+                    <img src="image/demo.jpg">
+                </a>
+                <a href="#">
+                    <img src="image/demo.jpg">
+                </a>
+                <a href="#">
+                    <img src="image/demo.jpg">
+                </a>
+                <a href="#">
+                    <img src="image/demo.jpg">
+                </a>
+            </div>
+            <div class="widget-fix">
+                <div class="ad-fix-middle-right"></div>
+                <dl class="widget-favorite">
+                    <dt>
+                        <span class="selected">猜你喜欢</span>
+                        <span>网友最爱</span>
+                    </dt>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">比基尼辣妹海边写真</a>
+                    </dd>
+                </dl>
+            </div>
         </div>
         <div class="clear"></div>
     </div>

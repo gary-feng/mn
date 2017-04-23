@@ -24,7 +24,7 @@
             </li>
         </ul>
         <span class="search">
-            <input type="text" placeholder="发现妹子">
+            <input type="text" placeholder="一大波妹子来袭">
             <input type="button" value="搜索">
         </span>
     </div>
